@@ -1,0 +1,101 @@
+<circuit version="1.0.0-SR1" rev="1402" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="Ground" CircId="Ground-2" mainComp="false" Show_id="false" Show_Val="false" Pos="-116,644" rotation="0" hflip="1" vflip="1" label="Ground-2" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Resistor" CircId="Resistor-3" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-116,532" rotation="90" hflip="1" vflip="1" label="Resistor-3" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="100 Ω" />
+
+<item itemtype="Rail" CircId="Rail-4" mainComp="false" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="-156,472" rotation="0" hflip="1" vflip="1" label="Rail-4" idLabPos="-16,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" />
+
+<item itemtype="Subcircuit" CircId="L293-6" mainComp="false" Show_id="true" Show_Val="false" Pos="236,536" rotation="0" hflip="1" vflip="1" label="L293-6" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Logic_Symbol="true" />
+
+<item itemtype="DcMotor" CircId="DcMotor-8" mainComp="false" Show_id="true" Show_Val="false" Pos="400,592" rotation="90" hflip="1" vflip="1" label="DcMotor-8" idLabPos="-22,-48" labelrot="0" valLabPos="-14,36" valLabRot="0" RPM_Nominal="60 _RPM" Volt_Nominal="5 V" Resistance="100 Ω" />
+
+<item itemtype="Led" CircId="Led-9" mainComp="false" Show_id="false" Show_Val="false" Pos="320,472" rotation="0" hflip="1" vflip="1" label="Led-9" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Yellow" Grounded="false" Threshold="2.4 V" MaxCurrent="0.03 A" Resistance="0.6 Ω" />
+
+<item itemtype="Led" CircId="Led-10" mainComp="false" Show_id="false" Show_Val="false" Pos="320,428" rotation="0" hflip="1" vflip="1" label="Led-10" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Yellow" Grounded="false" Threshold="2.4 V" MaxCurrent="0.03 A" Resistance="0.6 Ω" />
+
+<item itemtype="DcMotor" CircId="DcMotor-11" mainComp="false" Show_id="true" Show_Val="false" Pos="412,708" rotation="90" hflip="1" vflip="1" label="DcMotor-11" idLabPos="-22,-48" labelrot="0" valLabPos="-14,36" valLabRot="0" RPM_Nominal="60 _RPM" Volt_Nominal="5 V" Resistance="100 Ω" />
+
+<item itemtype="Resistor" CircId="Resistor-39" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="244,472" rotation="360" hflip="1" vflip="1" label="Resistor-39" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="1 kΩ" />
+
+<item itemtype="Resistor" CircId="Resistor-40" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="240,428" rotation="0" hflip="1" vflip="1" label="Resistor-40" idLabPos="-16,-24" labelrot="0" valLabPos="-12,6" valLabRot="0" Resistance="1 kΩ" />
+
+<item itemtype="Ground" CircId="Ground-41" mainComp="false" Show_id="false" Show_Val="false" Pos="388,428" rotation="-90" hflip="1" vflip="1" label="Ground-41" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Ground" CircId="Ground-42" mainComp="false" Show_id="false" Show_Val="false" Pos="388,472" rotation="-90" hflip="1" vflip="1" label="Ground-42" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Push" CircId="Push-49" mainComp="false" Show_id="false" Show_Val="false" Pos="-108,608" rotation="90" hflip="1" vflip="1" label="Push-49" idLabPos="-12,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" Poles="1 _Poles" />
+
+<item itemtype="Probe" CircId="Probe-118" mainComp="false" Show_id="false" Show_Val="true" Pos="132,572" rotation="-45" hflip="1" vflip="1" label="Probe-118" idLabPos="16,-16" labelrot="45" valLabPos="16,0" valLabRot="45" ShowVolt="true" Threshold="2.5 V" />
+
+<item itemtype="Probe" CircId="Probe-119" mainComp="false" Show_id="false" Show_Val="true" Pos="164,528" rotation="-45" hflip="1" vflip="1" label="Probe-119" idLabPos="16,-16" labelrot="45" valLabPos="16,0" valLabRot="45" ShowVolt="true" Threshold="2.5 V" />
+
+<item itemtype="Probe" CircId="Probe-120" mainComp="false" Show_id="false" Show_Val="true" Pos="228,564" rotation="-45" hflip="1" vflip="1" label="Probe-120" idLabPos="16,-16" labelrot="45" valLabPos="16,0" valLabRot="45" ShowVolt="true" Threshold="2.5 V" />
+
+<item itemtype="Probe" CircId="Probe-121" mainComp="false" Show_id="false" Show_Val="true" Pos="188,548" rotation="-45" hflip="1" vflip="1" label="Probe-121" idLabPos="16,-16" labelrot="45" valLabPos="16,0" valLabRot="45" ShowVolt="true" Threshold="2.5 V" />
+
+<item itemtype="MCU" CircId="mega328-151" mainComp="false" Show_id="true" Show_Val="false" Pos="48,484" rotation="0" hflip="1" vflip="1" label="mega328-151" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Frequency="16 MHz" Program="../../OneDrive/Desktop/CEng2 Solution 2021 (1)/CEng2 Solution/CEng1 Project/Debug/CEng2 Project.hex" Auto_Load="false" Rst_enabled="false" Ext_Osc="false" Wdt_enabled="false" />
+
+<item itemtype="Hd44780" CircId="Hd44780-170" mainComp="false" Show_id="true" Show_Val="false" Pos="-76,396" rotation="0" hflip="1" vflip="1" label="Hd44780-170" idLabPos="70,-82" labelrot="0" valLabPos="-16,20" valLabRot="0" Rows="2 _Rows" Cols="16 _Columns" />
+
+<item itemtype="Ground" CircId="Ground-176" mainComp="false" Show_id="false" Show_Val="false" Pos="-124,436" rotation="0" hflip="1" vflip="1" label="Ground-176" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Node" CircId="Node-154" mainComp="false" Pos="-116,560" />
+
+<item itemtype="Connector" uid="connector-177" startpinid="Resistor-3-lPin" endpinid="Rail-4-outnod" pointList="-116,516,-116,472,-140,472" />
+
+<item itemtype="Connector" uid="connector-178" startpinid="Push-49-switch0pinN" endpinid="Ground-2-Gnd" pointList="-108,624,-108,628,-116,628" />
+
+<item itemtype="Connector" uid="connector-179" startpinid="Resistor-39-rPin" endpinid="Led-9-lPin" pointList="260,472,304,472" />
+
+<item itemtype="Connector" uid="connector-180" startpinid="Resistor-40-rPin" endpinid="Led-10-lPin" pointList="256,428,304,428" />
+
+<item itemtype="Connector" uid="connector-181" startpinid="Led-10-rPin" endpinid="Ground-41-Gnd" pointList="336,428,372,428" />
+
+<item itemtype="Connector" uid="connector-182" startpinid="Ground-42-Gnd" endpinid="Led-9-rPin" pointList="372,472,336,472" />
+
+<item itemtype="Connector" uid="connector-183" startpinid="Resistor-3-rPin" endpinid="Node-154-0" pointList="-116,548,-116,560" />
+
+<item itemtype="Connector" uid="connector-184" startpinid="mega328-151-PORTB7" endpinid="Node-154-1" pointList="40,564,-116,564,-116,560" />
+
+<item itemtype="Connector" uid="connector-185" startpinid="Node-154-2" endpinid="Push-49-pinP0" pointList="-116,560,-116,592,-108,592" />
+
+<item itemtype="Connector" uid="connector-186" startpinid="mega328-151-PORTB1" endpinid="L293-6-34EN" pointList="88,596,228,596,228,592" />
+
+<item itemtype="Connector" uid="connector-187" startpinid="mega328-151-PORTB2" endpinid="L293-6-4A" pointList="88,588,228,588,228,584" />
+
+<item itemtype="Connector" uid="connector-188" startpinid="mega328-151-PORTB3" endpinid="L293-6-3A" pointList="88,580,228,580,228,576" />
+
+<item itemtype="Connector" uid="connector-189" startpinid="mega328-151-PORTB4" endpinid="L293-6-12EN" pointList="88,572,220,572,220,560,228,560" />
+
+<item itemtype="Connector" uid="connector-190" startpinid="mega328-151-PORTB5" endpinid="L293-6-2A" pointList="88,564,204,564,204,552,228,552" />
+
+<item itemtype="Connector" uid="connector-191" startpinid="mega328-151-PORTB6" endpinid="L293-6-1A" pointList="40,556,12,556,12,468,108,468,108,544,228,544" />
+
+<item itemtype="Connector" uid="connector-192" startpinid="L293-6-1Y" endpinid="DcMotor-8-lPin" pointList="276,544,400,544,400,552" />
+
+<item itemtype="Connector" uid="connector-193" startpinid="L293-6-2Y" endpinid="DcMotor-8-rPin" pointList="276,552,276,556,368,556,368,640,400,640,400,632" />
+
+<item itemtype="Connector" uid="connector-194" startpinid="L293-6-3Y" endpinid="DcMotor-11-lPin" pointList="276,576,360,576,360,668,412,668" />
+
+<item itemtype="Connector" uid="connector-195" startpinid="L293-6-4Y" endpinid="DcMotor-11-rPin" pointList="276,584,276,752,412,752,412,748" />
+
+<item itemtype="Connector" uid="connector-196" startpinid="Hd44780-170-dataPin7" endpinid="mega328-151-PORTD7" pointList="20,404,20,588,40,588" />
+
+<item itemtype="Connector" uid="connector-197" startpinid="mega328-151-PORTD6" endpinid="Hd44780-170-dataPin6" pointList="40,580,12,580,12,404" />
+
+<item itemtype="Connector" uid="connector-198" startpinid="Hd44780-170-dataPin5" endpinid="mega328-151-PORTD5" pointList="4,404,4,572,40,572" />
+
+<item itemtype="Connector" uid="connector-199" startpinid="Hd44780-170-PinEn" endpinid="mega328-151-PORTC5" pointList="-44,404,-44,456,124,456,124,492,88,492" />
+
+<item itemtype="Connector" uid="connector-200" startpinid="mega328-151-PORTC6" endpinid="Hd44780-170-PinRS" pointList="40,492,-60,492,-60,404" />
+
+<item itemtype="Connector" uid="connector-201" startpinid="Hd44780-170-PinRW" endpinid="Ground-176-Gnd" pointList="-52,404,-52,420,-124,420" />
+
+<item itemtype="Connector" uid="connector-202" startpinid="mega328-151-PORTC4" endpinid="Resistor-40-lPin" pointList="88,500,192,500,192,428,224,428" />
+
+<item itemtype="Connector" uid="connector-203" startpinid="mega328-151-PORTC3" endpinid="Resistor-39-lPin" pointList="88,508,208,508,208,472,228,472" />
+
+<item itemtype="Connector" uid="Connector-204" startpinid="Hd44780-170-dataPin4" endpinid="mega328-151-PORTD4" pointList="-4,404,-4,532,40,532" />
+
+</circuit>
